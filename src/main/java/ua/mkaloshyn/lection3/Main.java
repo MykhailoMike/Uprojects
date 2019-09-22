@@ -35,6 +35,12 @@ public class Main {
 
         Singleton1.SINGLETON.method();
 
+        System.out.println(0.0/0.0+10);
+
+        double c = (double) 0;
+
+        String str = String.format("%1.4f",c);
+        System.out.println(str);
 
     }
 }
